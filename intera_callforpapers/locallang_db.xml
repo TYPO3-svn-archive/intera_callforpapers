@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'intera_callforpapers'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_interacallforpapers_abstract">Paper's Abstract</label>
+			<label index="tx_interacallforpapers_abstract.tstamp">Submit date</label>
+			<label index="tx_interacallforpapers_abstract.crdate">Submit date</label>
+			<label index="tx_interacallforpapers_abstract.papertitle">Paper title</label>
+			<label index="tx_interacallforpapers_abstract.papertitleand">Paper title (abstract text)</label>
+			<label index="tx_interacallforpapers_abstract.author">Corresponding Author</label>
+			<label index="tx_interacallforpapers_abstract.position">Position</label>
+			<label index="tx_interacallforpapers_abstract.companyaffiliation">Company Affiliation</label>
+			<label index="tx_interacallforpapers_abstract.mailingaddress">Mailing Address</label>
+			<label index="tx_interacallforpapers_abstract.city">City</label>
+			<label index="tx_interacallforpapers_abstract.postcode">Zip/Post Code</label>
+			<label index="tx_interacallforpapers_abstract.country">Country</label>
+			<label index="tx_interacallforpapers_abstract.tel">Tel</label>
+			<label index="tx_interacallforpapers_abstract.fax">Fax</label>
+			<label index="tx_interacallforpapers_abstract.coauthors">Co-Authors</label>
+			<label index="tx_interacallforpapers_abstract.email">E-mail</label>
+			<label index="tx_interacallforpapers_abstract.publication.I.0">No</label>
+			<label index="tx_interacallforpapers_abstract.publication.I.1">Yes</label>
+			<label index="tx_interacallforpapers_abstract.publication">Publication (Has presentation or publication of this abstract/material been made previously?)</label>
+			<label index="tx_interacallforpapers_abstract.copyrightclearance.I.0">No</label>
+			<label index="tx_interacallforpapers_abstract.copyrightclearance.I.1">Yes</label>
+			<label index="tx_interacallforpapers_abstract.copyrightclearance">Copyright Clearance (Will your Company allow you to present and/or publish all of the information described in your abstract?)</label>
+			<label index="tx_interacallforpapers_abstract.primarycategory">Subject Category Primary</label>
+			<label index="tx_interacallforpapers_abstract.secondarycategory">Subject Category Secondary</label>
+			<label index="tx_interacallforpapers_abstract.pcategory">Primary Category</label>
+			<label index="tx_interacallforpapers_abstract.scategory">Secondary Category</label>
+			<label index="tx_interacallforpapers_abstract.abstract">Abstract form</label>
+			<label index="tx_interacallforpapers_abstract.experience">Application (as appropriate)</label>
+			<label index="tx_interacallforpapers_abstract.technicalcontribution">Technical Contribution (as appropriate)</label>
+			<label index="tx_interacallforpapers_abstract.economiccontribution">Economic Contribution (prospects if any)</label>
+			<label index="tx_interacallforpapers_abstract.innovation">Innovation (as appropriate)</label>
+			<label index="tx_interacallforpapers_abstract.cv">C.V. of Corresponding author (Max 80 words)</label>
+			<label index="tx_interacallforpapers_abstract.placedateofpublication">place date of publication</label>
+			<label index="tx_interacallforpapers_abstract.slot.I.0">Oral</label>
+			<label index="tx_interacallforpapers_abstract.slot.I.1">Poster</label>
+			<label index="tx_interacallforpapers_abstract.slot">Oral / Poster</label>
+			<label index="tx_interacallforpapers_abstract.protocolnumber">Protocol Number</label>
+			<label index="tx_interacallforpapers_abstract.vote">Vote</label>
+			<label index="tx_interacallforpapers_abstract.category">Category</label>
+			
+			<label index="tx_interacallforpapers_abstract.avgrating">Average</label>
+			<label index="tx_interacallforpapers_abstract.numvotes">Num of votes</label>
+			
+			<label index="tx_interacallforpapers_vote.vote">Vote</label>
+			<label index="tx_interacallforpapers_vote.state">State</label>
+			<label index="tx_interacallforpapers_vote.state1">Valued</label>
+			<label index="tx_interacallforpapers_vote.state2">Not valued</label>
+			<label index="tx_interacallforpapers_vote">Abstract Vote</label>
+			<label index="tx_interacallforpapers_vote.votername">Valuator</label>
+			<label index="tx_interacallforpapers_vote.abstract">Abstract ID</label>
+			<label index="tx_interacallforpapers_vote.vote.I.0">1 min</label>
+			<label index="tx_interacallforpapers_vote.vote.I.1">2</label>
+			<label index="tx_interacallforpapers_vote.vote.I.2">3</label>
+			<label index="tx_interacallforpapers_vote.vote.I.3">4</label>
+			<label index="tx_interacallforpapers_vote.vote.I.4">5 max</label>
+			<label index="tx_interacallforpapers_vote.slottime.I.0">1 slot</label>
+			<label index="tx_interacallforpapers_vote.slottime.I.1">2 slot</label>
+			<label index="tx_interacallforpapers_vote.slottime.I.2">rejected</label>
+			<label index="tx_interacallforpapers_vote.slottime">rejected/1slot/2slot</label>
+			<label index="tx_interacallforpapers_vote.note">note</label>
+			<label index="tx_interacallforpapers_vote.close">Final save and submission to administrator</label>
+			<label index="tx_interacallforpapers_vote.closelabel">Final save and submission to administrator</label>
+			<label index="tx_interacallforpapers_vote.closed">Evaluation already submitted.</label>
+			<label index="tx_interacallforpapers_vote.open">You can evaluated or edit your value for this abstract.</label>
+			<label index="tx_interacallforpapers_vote.openlab">Open</label>
+			<label index="tx_interacallforpapers_vote.yetvalued">You have already evaluate this abstract!</label>
+			<label index="tx_interacallforpapers_vote.nopermess">You are not entitled to evaluate this abstract</label>
+			<label index="tx_interacallforpapers_vote.rights">You can read and evaluate this abstract!</label>
+			<label index="tx_interacallforpapers_vote.norights">You can only read this abstract!</label>
+			<label index="tx_interacallforpapers_vote.right">Access</label>
+			<label index="tx_interacallforpapers_vote.required">Value is required!</label>
+			<label index="tt_content.list_type_pi1">Call for Papers</label>
+			<label index="title">Abstracts</label>
+			<label index="function1">Latest not Valued</label>
+			<label index="function2">Evaluation Module</label>
+			<label index="function3">Your Score Report</label>
+			
+			<label index="title2">Admin module</label>
+			<label index="function2.1">Abstract view and export</label>
+			<label index="function2.2">Abstract rating and export</label>
+			<label index="function2.3">Your Score Report</label>
+			
+			<label index="save">Export and download the file</label>
+			
+			<label index="tx_interacallforpapers_permess">Valuator Permess</label>
+			<label index="tx_interacallforpapers_permess.votername">Valuator Name</label>
+			<label index="tx_interacallforpapers_permess.pages">Corrisponding pages (affect subpages)</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="tx_interacallforpapers_abstract">Abstract</label>
+			<label index="tx_interacallforpapers_abstract.tstamp">data modifica</label>
+			<label index="tx_interacallforpapers_abstract.crdate">data creazione</label>
+			<label index="tx_interacallforpapers_abstract.papertitle">Titolo</label>
+			<label index="tx_interacallforpapers_abstract.papertitleand">Titolo (testo)</label>
+			<label index="tx_interacallforpapers_abstract.author">Autore</label>
+			<label index="tx_interacallforpapers_abstract.position">Ruolo</label>
+			<label index="tx_interacallforpapers_abstract.companyaffiliation">Azienda</label>
+			<label index="tx_interacallforpapers_abstract.mailingaddress">Indirizzo</label>
+			<label index="tx_interacallforpapers_abstract.city">Città</label>
+			<label index="tx_interacallforpapers_abstract.postcode">CAP</label>
+			<label index="tx_interacallforpapers_abstract.country">Provincia</label>
+			<label index="tx_interacallforpapers_abstract.tel">Tel</label>
+			<label index="tx_interacallforpapers_abstract.fax">Fax</label>
+			<label index="tx_interacallforpapers_abstract.coauthors">Co-Authors</label>
+			<label index="tx_interacallforpapers_abstract.email">E-mail</label>
+			<label index="tx_interacallforpapers_abstract.publication.I.0">No</label>
+			<label index="tx_interacallforpapers_abstract.publication.I.1">Yes</label>
+			<label index="tx_interacallforpapers_abstract.publication">Publication (Has presentation or publication of this abstract/material been made previously?)</label>
+			<label index="tx_interacallforpapers_abstract.copyrightclearance.I.0">Rifiuto</label>
+			<label index="tx_interacallforpapers_abstract.copyrightclearance.I.1">Accetto</label>
+			<label index="tx_interacallforpapers_abstract.copyrightclearance">Privacy e copyright</label>
+			<label index="tx_interacallforpapers_abstract.primarycategory">Target</label>
+			<label index="tx_interacallforpapers_abstract.secondarycategory">Subject Category Secondary</label>
+			<label index="tx_interacallforpapers_abstract.pcategory">Target</label>
+			<label index="tx_interacallforpapers_abstract.scategory">Secondary Category</label>
+			<label index="tx_interacallforpapers_abstract.abstract">Abstract</label>
+			<label index="tx_interacallforpapers_abstract.experience">Esperienza TYPO3</label>
+			<label index="tx_interacallforpapers_abstract.technicalcontribution">Technical Contribution (as appropriate)</label>
+			<label index="tx_interacallforpapers_abstract.economiccontribution">Economic Contribution (prospects if any)</label>
+			<label index="tx_interacallforpapers_abstract.innovation">Innovation (as appropriate)</label>
+			<label index="tx_interacallforpapers_abstract.cv">CV autore</label>
+			<label index="tx_interacallforpapers_abstract.placedateofpublication">place date of publication</label>
+			<label index="tx_interacallforpapers_abstract.slot.I.0">1slot</label>
+			<label index="tx_interacallforpapers_abstract.slot.I.1">2slot</label>
+			<label index="tx_interacallforpapers_abstract.slot">Tempo</label>
+			<label index="tx_interacallforpapers_abstract.protocolnumber">Codice documento</label>
+			<label index="tx_interacallforpapers_abstract.vote">Voto</label>
+			<label index="tx_interacallforpapers_abstract.category">Target</label>
+			
+			<label index="tx_interacallforpapers_abstract.avgrating">Media</label>
+			<label index="tx_interacallforpapers_abstract.numvotes">Numero voti</label>
+			
+			<label index="tx_interacallforpapers_vote.vote">Voto</label>
+			<label index="tx_interacallforpapers_vote.state">Stato</label>
+			<label index="tx_interacallforpapers_vote.state1">Votato</label>
+			<label index="tx_interacallforpapers_vote.state2">Non votato</label>
+			<label index="tx_interacallforpapers_vote">Voto</label>
+			<label index="tx_interacallforpapers_vote.votername">Votante</label>
+			<label index="tx_interacallforpapers_vote.abstract">Abstract ID</label>
+			<label index="tx_interacallforpapers_vote.vote.I.0">1 min</label>
+			<label index="tx_interacallforpapers_vote.vote.I.1">2</label>
+			<label index="tx_interacallforpapers_vote.vote.I.2">3</label>
+			<label index="tx_interacallforpapers_vote.vote.I.3">4</label>
+			<label index="tx_interacallforpapers_vote.vote.I.4">5 max</label>
+			<label index="tx_interacallforpapers_vote.slottime.I.0">1slot</label>
+			<label index="tx_interacallforpapers_vote.slottime.I.1">2slot</label>
+			<label index="tx_interacallforpapers_vote.slottime.I.2">rifiutato</label>
+			<label index="tx_interacallforpapers_vote.slottime">rifiutato / 1slot / 2slot</label>
+			<label index="tx_interacallforpapers_vote.note">note</label>
+			<label index="tx_interacallforpapers_vote.close">Salva e invia al coordinatore (non sarà possibile modificare ulteriormente)</label>
+			<label index="tx_interacallforpapers_vote.closelabel">Salva e invia al coordinatore (non sarà possibile modificare ulteriormente)</label>
+			<label index="tx_interacallforpapers_vote.closed">Voto già inviato.</label>
+			<label index="tx_interacallforpapers_vote.open">Puoi modificare il tuo voto per questo abstract.</label>
+			<label index="tx_interacallforpapers_vote.openlab">Apro</label>
+			<label index="tx_interacallforpapers_vote.yetvalued">Hai già votato questo abstract!</label>
+			<label index="tx_interacallforpapers_vote.nopermess">Non hai i diritti per votare questo abstract!</label>
+			<label index="tx_interacallforpapers_vote.rights">Puoi leggere e votare questo abstract!</label>
+			<label index="tx_interacallforpapers_vote.norights">Puoi solo leggere questo abstract!</label>
+			<label index="tx_interacallforpapers_vote.right">Accesso</label>
+			<label index="tx_interacallforpapers_vote.required">Valore richiesto!</label>
+			<label index="tt_content.list_type_pi1">Call for Papers</label>
+			<label index="title">Abstract</label>
+			<label index="function1">Ultimi arrivi, non votati</label>
+			<label index="function2">Modulo di votazione</label>
+			<label index="function3">Modulo voti espressi</label>
+			
+			<label index="title2">Abstract admin</label>
+			<label index="function2.1">Abstract: vista e esportazione</label>
+			<label index="function2.2">Abstract: punteggi e esportazione</label>
+			<label index="function2.3">Modulo voti espressi</label>
+			
+			<label index="save">Esporta e salva il file</label>
+			
+			<label index="tx_interacallforpapers_permess">Permessi votante</label>
+			<label index="tx_interacallforpapers_permess.votername">Nome utente</label>
+			<label index="tx_interacallforpapers_permess.pages">Categorie di voto (agisce anche sulle sottocategorie)</label>
+		</languageKey>
+	</data>
+</T3locallang>

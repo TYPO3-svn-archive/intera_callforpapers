@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_interacallforpapers_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="listFieldHeader_papertitle">Titolo</label>
+			<label index="listFieldHeader_paper-title">Titolo</label>
+			<label index="listFieldHeader_author">Autore</label>
+			<label index="listFieldHeader_position">Ruolo</label>
+			<label index="listFieldHeader_companyaffiliation">Azienda</label>
+			<label index="listFieldHeader_mailingaddress">Indirizzo</label>
+			<label index="listFieldHeader_company-affiliation">Azienda</label>
+			<label index="listFieldHeader_mailing-address">Indirizzo</label>
+			<label index="listFieldHeader_city">Città</label>
+			<label index="listFieldHeader_postcode">CAP</label>
+			<label index="listFieldHeader_country">Provincia</label>
+			<label index="listFieldHeader_tel">Tel</label>
+			<label index="listFieldHeader_fax">Fax</label>
+			<label index="listFieldHeader_coauthors">Co-Authors and company affilation (Please list authors and co-authors and company affiliation in the order they should be printed in the programme)</label>
+			<label index="listFieldHeader_email">E-mail</label>
+			<label index="listFieldHeader_publication">Publication (Has presentation or publication of this abstract/material been made previously?)</label>
+			<label index="listFieldHeader_copyrightclearance">Copyright Clearance (Will your Company allow you to present and/or publish all of the information described in your abstract?)</label>
+			<label index="listFieldHeader_copyright-clearance">Privacy e copyright</label>
+			<label index="listFieldHeader_primarycategory">Target</label>
+			<label index="listFieldHeader_secondarycategory">Subject Category Secondary</label>
+			<label index="listFieldHeader_abstract">Abstract</label>
+			<label index="listFieldHeader_experience">Esperienza</label>
+			<label index="listFieldHeader_technicalcontribution">Technical Contribution (as appropriate)</label>
+			<label index="listFieldHeader_economiccontribution">Economic Contribution (prospects if any)</label>
+			<label index="listFieldHeader_innovation">Innovation (as appropriate)</label>
+			<label index="listFieldHeader_cv">C.V. of Corresponding author (Max 80 words)</label>
+			<label index="listFieldHeader_placedateofpublication">place date of publication</label>
+			<label index="listFieldHeader_slot">tempo</label>
+			<label index="listFieldHeader_protocolnumber">Codice documento</label>
+			<label index="listFieldHeader_vote">vote</label>
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="pi_list_searchBox_search">Search</label>
+			<label index="err_chr1">Errore: abstract non rientra nei limiti, min 200 max 400 parole.</label>
+			<label index="err_chr2">Errore: campo CV supera 80 parole.</label>
+			<label index="err_chr3">Errore: campo esperienza supera 80 parole.</label>
+			<label index="err_email">Errore: e-mail non valida.</label>
+			<label index="err_generic">Errore: il campo %s non è compilato.</label>
+			<label index="err_cat">Errore: target non valido.</label>
+			<label index="subj">Notifica abstract inviato.</label>
+			<label index="email_salutation">Grazie per aver inviato la tua proposta.</label>
+		</languageKey>
+	</data>
+</T3locallang>

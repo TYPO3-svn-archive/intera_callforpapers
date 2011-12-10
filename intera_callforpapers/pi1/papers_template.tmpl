@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>call for papers example template</title>
+	
+
+</head>
+
+<body>
+
+<h1>CALL FOR PAPERS TEMPLATES</h1>
+<h2>EXAMPLE</h2>
+
+
+<h3>TEMPLATE_SUBMIT</h3>
+<em>This is the template for the latest news, typically displayed on a frontpage.</em>
+
+
+<!-- ###TEMPLATE_SUBMIT### begin -->
+<SCRIPT>
+<!--
+function CheckLength(obj,target)
+  {
+    chars=obj.value.split(" ")
+    target.value=chars.length;
+  }
+//-->
+</SCRIPT>
+<form ACTION="###FORM_URL###" METHOD="POST" name="callforpapers">
+<input type="hidden" name="tx_interacallforpapers[subject]" value="ABSTRACT SUBMISSION FORM">
+
+<table width="500" cellpadding="0" cellspacing="0" align="left" border="0">
+<tr><tD colspan="2"><font color="#ff0000"><b>(*)</b> </font>= Campi obbligatori</td></tr>
+
+<tr><tD colspan="2">&nbsp;</td></tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Titolo</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][paper-title]" size="45" type="text" value=""></td>
+</tr>
+<tr> 
+	<td width="150"><span class="red">*</span>&nbsp;<strong>Target</strong>:&nbsp;</td>
+	<td width="350"><select name="tx_interacallforpapers[DATA][primary-category]" id="primary">
+###CATEGORIES_SCRIPT###
+</select>
+</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<b>Abstract</b> (min 200 - max 400 parole, no immagini no html)</td>
+</tr>
+<tr> 
+    <td align="left" colspan="2"><textarea cols="65" rows="12" name="tx_interacallforpapers[DATA][abstract]" id="abstract" onKeyUp="CheckLength(this,chr1)" wrap="hard"></textarea></td>
+</tr>
+<tr>
+	<td align="left" colspan="2">numero parole: <INPUT TYPE="text" NAME="tx_interacallforpapers[DATA][chr1]" id="chr1" SIZE="4" onFocus="this.blur()" value="0"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<b>Tempo richiesto per l'esposizione:</b></td>
+</tr>
+<tr> 
+    <td colspan="2" align="left">
+	<input type="radio" name="tx_interacallforpapers[DATA][slot]" value="1slot">&nbsp;&nbsp;1 slot
+	<input type="radio" name="tx_interacallforpapers[DATA][slot]" value="2slot">&nbsp;&nbsp;2 slot</tD>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><hr size=1></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Autore</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][author]" size="45" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Ruolo</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][position]" size="45" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Azienda</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][company-affiliation]" size="45" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Indirizzo</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][mailing-address]" size="45" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Città</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][city]" size="45" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>CAP</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][postcode]" size="11" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Provincia</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][country]" size="45" type="text"></td>
+</tr>
+<tr> 
+    <td align="left" width="150"><strong>&nbsp;</strong>&nbsp;&nbsp;Tel:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][tel]" size="30" type="text"></td>
+</tr>
+<tr> 
+    <td align="left" width="150"><strong>&nbsp;</strong>&nbsp;&nbsp;Fax:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][fax]" size="30" type="text"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>E-mail</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][email]" size="30" type="text"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<strong>Descrivi brevemente le tue esperienze con TYPO3:</strong> (Max 80 parole)</td>
+</tr>
+<tr> 
+    <td align="left" colspan="2"><textarea cols="65" rows="6" name="tx_interacallforpapers[DATA][experience]" onLoad="CheckLength(this,chr3)" onKeyUp="CheckLength(this,chr3)"></textarea></td>
+</tr>
+<tr>
+	<td align="left" colspan="2">numero parole: <INPUT TYPE="text" NAME="tx_interacallforpapers[DATA][chr3]" id="chr3" SIZE="4" onFocus="this.blur()" value="0"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><span class="red">*</span>&nbsp;<strong>Descrivi brevemente il tuo profilo CV</strong> (Max 80 parole)</td></tr>
+<tr> 
+    <td align="left" colspan="2"><textarea cols="65" rows="6" name="tx_interacallforpapers[DATA][cv]" onLoad="CheckLength(this,chr2)" onKeyUp="CheckLength(this,chr2)"></textarea></td>
+</tr>
+<tr>
+	<td align="left" colspan="2">numero parole: <INPUT TYPE="text" NAME="tx_interacallforpapers[DATA][chr2]" id="chr2" SIZE="4" onFocus="this.blur()" value="0"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><hr size=1></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<strong>Accettazione condizioni e Privacy</strong>:<br>Dichiaro di accettare questo e quello e poi accetto tutte le condizioni della privacy. Bla bla bla e ancora bla bla.</td>
+</tr>
+
+<tr> 
+    <td colspan="2" align="left">
+	<input type="radio" name="tx_interacallforpapers[DATA][copyright-clearance]" value="1">&nbsp;&nbsp;Accetto
+	<input type="radio" name="tx_interacallforpapers[DATA][copyright-clearance]" value="0">&nbsp;&nbsp;Rifiuto</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="Invia"></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+</table>
+</form>
+<!-- ###TEMPLATE_SUBMIT### end -->
+
+
+
+
+
+<h3>TEMPLATE_SUBMITTED_WRONG</h3>
+<em>This is the template for the latest news, typically displayed on a frontpage.</em>
+
+
+<!-- ###TEMPLATE_SUBMITTED_WRONG### begin -->
+<SCRIPT>
+<!--
+function CheckLength(obj,target)
+  {
+    chars=obj.value.split(" ")
+    target.value=chars.length;
+  }
+//-->
+</SCRIPT>
+<form ACTION="###FORM_URL###" METHOD="POST" name="callforpapers">
+<input type="hidden" name="tx_interacallforpapers[subject]" value="ABSTRACT SUBMISSION FORM">
+
+<table width="500" cellpadding="0" cellspacing="2" align="left" border="0">
+<tr><tD colspan="2"><font color="#ff0000"><b>(*)</b> </font>= Campi obbligatori</td></tr>
+
+<tr><tD colspan="2">&nbsp;</td></tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Titolo</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][paper-title]" size="45" type="text" value="###paper-title###"></td>
+</tr>
+<tr> 
+	<td width="150"><span class="red">*</span>&nbsp;<strong>Target</strong>:&nbsp;</td>
+	<td width="350"><select name="tx_interacallforpapers[DATA][primary-category]" id="primary">
+###CATEGORIES_SCRIPT###
+</select>
+</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<b>Abstract</b> (min 200 - max 400 parole, no immagini no html)</td>
+</tr>
+<tr> 
+    <td align="left" colspan="2"><textarea cols="65" rows="12" name="tx_interacallforpapers[DATA][abstract]" id="abstract" onKeyUp="CheckLength(this,chr1)" wrap="hard">###abstract###</textarea></td>
+</tr>
+<tr>
+	<td align="left" colspan="2">numero parole: <INPUT TYPE="text" NAME="tx_interacallforpapers[DATA][chr1]" id="chr1" SIZE="4" onFocus="this.blur()" value="###chr1###"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<b>Tempo richiesto per l'esposizione:</b></td>
+</tr>
+<tr> 
+    <td colspan="2" align="left">
+	<input type="radio" name="tx_interacallforpapers[DATA][slot]" value="1slot">&nbsp;&nbsp;1 slot
+	<input type="radio" name="tx_interacallforpapers[DATA][slot]" value="2slot">&nbsp;&nbsp;2 slot</tD>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><hr size=1></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Autore</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][author]" size="45" type="text" value="###author###"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Ruolo</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][position]" size="45" type="text" value="###position###"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Azienda</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][company-affiliation]" size="45" type="text" value="###company-affiliation###"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Indirizzo</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][mailing-address]" size="45" type="text" value="###mailing-address###"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>Città</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][city]" size="45" type="text" value="###city###"></td>
+</tr>
+
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>CAP</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][postcode]" size="11" type="text" value="###postcode###"></td>
+</tr>
+<tr> 
+    <td align="left" width="150"><strong>&nbsp;</strong>&nbsp;&nbsp;Tel:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][tel]" size="30" type="text" value="###tel###"></td>
+</tr>
+<tr> 
+    <td align="left" width="150"><strong>&nbsp;</strong>&nbsp;&nbsp;Fax:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][fax]" size="30" type="text" value="###fax###"></td>
+</tr>
+<tr> 
+    <td align="left" width="150"><span class="red">*</span>&nbsp;<strong>E-mail</strong>:&nbsp;</td>
+    <td align="left" width="350">&nbsp;<input name="tx_interacallforpapers[DATA][email]" size="30" type="text" value="###email###"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<strong>Descrivi brevemente le tue esperienze con TYPO3 (max 80 parole)</strong></td>
+</tr>
+<tr> 
+    <td align="left" colspan="2"><textarea cols="65" rows="6" name="tx_interacallforpapers[DATA][experience]" onLoad="CheckLength(this,chr3)" onKeyUp="CheckLength(this,chr3)">###experience###</textarea></td>
+</tr>
+<tr>
+	<td align="left" colspan="2">numero parole: <INPUT TYPE="text" NAME="tx_interacallforpapers[DATA][chr3]" id="chr3" SIZE="4" onFocus="this.blur()" value="###chr3###"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><span class="red">*</span>&nbsp;<strong>Descrivi brevemente il tuo profilo CV</strong> (max 80 parole)</td></tr>
+<tr> 
+    <td align="left" colspan="2"><textarea cols="65" rows="6" name="tx_interacallforpapers[DATA][cv]" onLoad="CheckLength(this,chr2)" onKeyUp="CheckLength(this,chr2)">###cv###</textarea></td>
+</tr>
+<tr>
+	<td align="left" colspan="2">numero parole: <INPUT TYPE="text" NAME="tx_interacallforpapers[DATA][chr2]" id="chr2" SIZE="4" onFocus="this.blur()" value="###chr2###"></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2"><hr size=1></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr> 
+    <td align="left" colspan="2"><span class="red">*</span>&nbsp;<strong>Accettazione condizioni e Privacy</strong>:<br>Dichiaro di accettare questo e quello e poi accetto tutte le condizioni della privacy. Bla bla bla e ancora bla bla.</td>
+</tr>
+
+<tr> 
+    <td colspan="2" align="left">
+	<input type="radio" name="tx_interacallforpapers[DATA][copyright-clearance]" value="1">&nbsp;&nbsp;Accetto
+	<input type="radio" name="tx_interacallforpapers[DATA][copyright-clearance]" value="0">&nbsp;&nbsp;Rifiuto</td>
+</tr>
+
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td colspan="2" align="center"><input type="submit" value="Invia"></td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+</table>
+</form>
+<!-- ###TEMPLATE_SUBMITTED_WRONG### end -->
+
+
+
+
+
+<h3>TEMPLATE_SUBMITTED_GOOD</h3>
+<em>This is the template for the latest news, typically displayed on a frontpage.</em>
+
+
+<!-- ###TEMPLATE_SUBMITTED_GOOD### begin -->
+Dati salvati!
+<br>
+Ti è stata inviata un'email!
+<!-- ###TEMPLATE_SUBMITTED_GOOD### end -->
+
+
+
+
+<h3>TEMPLATE_BE_LATEST</h3>
+<em>This is the template for the latest news, typically displayed on a frontpage.</em>
+
+
+<!-- ###TEMPLATE_BE_LATEST### begin -->
+All data HERE!
+<!-- ###TEMPLATE_BE_LATEST### end -->
+
+
+
+
+
+</body>
+</html>
